@@ -23,7 +23,7 @@ console.log(plus_keer);
 // ==========================================
 // 4. Declareer een variabele en sla daar de uitkomst van 36 gedeeld door 6, maal 2 in op.          // geeft 12
 // ==========================================
-const delen = 36 / 6 * 2;
+const delen = (36 / 6) * 2;
 console.log(delen);
 
 // ==========================================

@@ -1,14 +1,14 @@
 // ==========================================
 // 1. Declareer een variabele en sla daar de uitkomst van de vergelijking "Is 10 groter dan 20?" in op        // geeft false
 // ==========================================
-let isGroter = 10 > 20;
+const isGroter = 10 > 20;
 console.log(isGroter);
 
 
 // ==========================================
 // 2. Declareer een variabele en sla daar de uitkomst van de vergelijking "Is 10 ongelijk aan 11?" in op        // geeft true
 // ==========================================
-let isOngelijk = 10!==11;
+let isOngelijk = 10 !== 11;
 console.log(isOngelijk);
 
 
@@ -24,8 +24,8 @@ console.log(isHetzelfde);
 // 4b. schrijf een script dat checkt of het rapportcijfer groter is dan 8.
 //     Als dat zo is, loggen we 'Cum laude!' in de console.                                                     // geeft 'Cum laude!'
 // ==========================================
-let rapportcijfer = 9;
-if (rapportcijfer > 8){
+const rapportcijfer = 9;
+if (rapportcijfer > 8) {
     console.log("Cum laude!");
 }
 
@@ -36,13 +36,13 @@ if (rapportcijfer > 8){
 // 5c. Log "Doe een jas aan!" Als het regent OF kouder is dan 12 graden
 // Tip: verander de waarde van isRaining en temperature even handmatig om te kijken of jouw 2e conditie klopt
 // ==========================================
-let isRaining = false;
-let temperature = 11;
+const isRaining = false;
+const temperature = 11;
 
-if (isRaining === false && temperature > 21) {
+if (!isRaining && temperature > 21) {
     console.log("Je kunt een korte broek aan!");
 }
 
-if (isRaining === true || temperature < 12) {
+if (isRaining || temperature < 12) {
     console.log("Doe een jas aan!");
 }

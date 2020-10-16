@@ -1,39 +1,39 @@
 // ==========================================
 // 1. Declareer een variabele en sla daar een array met vier jaartallen in op.              // bijv. 2020, 2019, 2018 en 2017
 // ==========================================
-let array = [2020, 2019, 2018, 2017];
-console.log(array);
+const years = [2020, 2019, 2018, 2017];
+console.log(years);
 
 // ==========================================
 // 2. Declareer een variabele en sla daar een array met drie van jouw hobbies in op.         // bijv. schaken, koekjes eten en muziek luisteren
 // ==========================================
-let array1 = ["gaming", "learning", "coding"];
-console.log(array1);
+const hobbies = ["gaming", "learning", "coding"];
+console.log(hobbies);
 
 // ==========================================
 // 3a. Declareer een variabele met daarin een array met de waardes 3, 4, 5, 7 en 2
 // 3b. Log de waarde 3 uit de array in de terminal                                          // geeft 3
 // ==========================================
-let array2 = [3, 4, 5, 7, 2];
-console.log(array2[0]);
+const numbers = [3, 4, 5, 7, 2];
+console.log(numbers[0]);
 
 // ==========================================
 // 4a. Declareer een variabele met daarin een array met de waardes groen, geel, rood, paars, blauw en oranje
 // 4b. Log de waarde blauw uit de array in de terminal                                      // geeft blauw
 // 4c. Log de waarde geel uit de array in de terminal                                       // geeft geel
 // ==========================================
-let array3 = ["groen", "geel", "geel", "rood", "paars", "blauw", "oranje"];
-console.log(array3[5])
-console.log(array3[1])
+const colors = ["groen", "geel", "geel", "rood", "paars", "blauw", "oranje"];
+console.log(colors[5])
+console.log(colors[1])
 
 // ==========================================
 // 5a. Declareer een variabele met daarin een array met de waardes 21, 22, 23, 25, 25
 // 5b. Pas een van de items in de array aan zodat de cijferreeks netjes doorloopt
 // 5c. Log de de array in de terminal                                                       // geeft [ 21, 22, 23, 24, 25 ]
 // ==========================================
-let array4 = [21, 22, 23, 25, 25];
-array4[3] = 24;
-console.log(array4);
+const sequence = [21, 22, 23, 25, 25];
+sequence[3] = 24;
+console.log(sequence);
 
 // ==========================================
 // 6a. Declareer een variabele met daarin een array met de waardes bladerdeeg, knoflook, spinazie
@@ -41,7 +41,7 @@ console.log(array4);
 // 6c. Log de de array in de terminal                                                       // geeft [ 'lasagne bladen', 'knoflook', 'spinazie' ]
 // 6d. Log de lengte van de array in de terminal                                            // geeft 3
 // ==========================================
-let array5 = ["bladerdeeg", "knoflook", "spinazie"];
-array5[0] = "lasagne bladen";
-console.log(array5);
-console.log(array5.length)
+const ingredients = ["bladerdeeg", "knoflook", "spinazie"];
+ingredients[0] = "lasagne bladen";
+console.log(ingredients);
+console.log(ingredients.length);
